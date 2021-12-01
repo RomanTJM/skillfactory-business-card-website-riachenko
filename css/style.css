@@ -1,0 +1,106 @@
+@font-face {
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-Italic.ttf);
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(223, 235, 237);
+}
+
+.link {
+    color: rgb(0, 110, 33);
+    transition: color .2s;
+}
+
+.link:hover {
+    color: rgb(1, 1, 60);
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 4px double black;
+    text-align:center;
+    flex: 0;
+    background-color: rgb(212, 234, 250);
+}
+
+.header-link {
+    margin: 0 10px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+    
+}
+
+.aside {
+    width: 300px;
+    flex: 0;
+  }
+  
+  .main-section {
+    flex-grow: 1;
+    padding-left: 50px;
+  }
+
+.img {
+    border: 2px solid white;
+    background-color: blue;
+}
+
+.title {
+    font-size: 1.9em;
+    color: rgb(1, 1, 60);
+    font-family: 'Vollkorn', serif;
+}
+
+.subtitle {
+    border-left: 5px double black;
+    padding-left: 10px;
+    color: rgb(1, 1, 60);
+    margin-top: 30px;
+    font-family: 'Vollkorn', serif;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+  }
+
+.footer {
+    border-top: 4px double black;
+    padding: 20px;
+    text-align: center;
+    color: rgb(1, 1, 60);
+    background-color: rgb(212, 234, 250);
+  }
+
